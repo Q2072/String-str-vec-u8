@@ -42,12 +42,12 @@ fn main() {
 
     //&[u8]=>&str
     let u83 =[72_u8, 101, 108, 108, 111, 44, 32, 119];
-    let str3 = std::str::from_utf8(&u83).unwrap();
+    let str3 = std::str::from_utf8(&u83).unwrap(); 
     println!("str3={:?}", str3);
 
     //&[u8]=>Vec[u8]=>String
     let u83 =[72_u8, 101, 108, 108, 111, 44, 32, 119,0];
-    let string4 = String::from_utf8(u83.to_vec()).unwrap();
+    let string4 = String::from_utf8(u83.to_vec()).unwrap(); //String::from_utf8_lossy
     println!("String4={:?}", string4);
 
     //Vec[u8]=>String
