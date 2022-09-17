@@ -1,10 +1,10 @@
-##type conversion demo
+#type conversion demo
 
-String
+##String
 
-&[u8]
+##&[u8]
 
-&str
+##&str
 
-Vec[u8]
+##Vec[u8]
 
