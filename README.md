@@ -1,10 +1,11 @@
-#type conversion demo
-
-##String
-
-##&[u8]
-
-##&str
-
-##Vec[u8]
+# type conversion demo for
+-----------------
+## String
+-----------------
+## &[u8]
+-----------------
+## &str
+-----------------
+## Vec[u8]
+-----------------
 
